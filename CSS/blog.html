@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anil Vlog</title>
+    <link rel="stylesheet" href="stylesheet/blog-header.css">
+    <link rel="stylesheet" href="stylesheet/blog-main.css">
+    <link rel="stylesheet" href="stylesheet/blog-footer.css">
+    <link rel="stylesheet" href="stylesheet/blog-2d-animination.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome To Anil Vlog</h1>
+        <img src="images/logo.jpg" class="logo" alt="logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Docker</a>
+                    <ul class="dropdown-menu"> 
+                        <li><a href="https://www.docker.com/products/docker-hub/" target="_blank"> Docker Account</a></li>
+                        <li><a href="https://hub.docker.com/_/docker" target="_blank"> Docker Images</a></li>
+                        <li><a href="https://docs.docker.com/engine/reference/run/" target="_blank"> Docker Codes </a></li>
+                        <li><a href="https://docs.docker.com/compose/" target="_blank"> Docker Compose</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Terraform</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://registry.terraform.io/sign-in" target="_blank"> Terraform Account</a></li>
+                        <li><a href="https://developer.hashicorp.com/terraform/install" target="_blank"> Terraform Installation</a></li>
+                        <li><a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs" target="_blank"> Terraform Codes </a></li>
+                        <li><a href="https://developer.hashicorp.com/terraform/cli" target="_blank"> Terraform Documentation</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Jenkins</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.jenkins.io/blog/" target="_blank"> Jenkins BLog</a></li>
+                        <li><a href="https://plugins.jenkins.io/" target="_blank"> Jenkins Plugins</a></li>
+                        <li><a href="https://www.jenkins.io/doc/book/installing/" target="_blank"> Jenkins Installation </a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact US</li>
+            </ul>
+        </nav>
+    </header>
+
+    <animation hidden>
+        <div class="animation-box">
+            <div class="face">devops</div>
+            <div class="face">docker</div>
+            <div class="face">terraform</div>
+            <div class="face">Jenkins</div>
+        </div>
+    </animation>
+
+    <section class="main-box">
+        <article class="inner-box">
+            <div class="inner-item-box inner-item-box-1">
+                <div class="image-box">
+                    <a href="https://www.docker.com/" target="_blank"><img src="images/docker.jpg" class="img" alt="docker"></a>
+                </div>
+                <div class="content-box">
+                    <h2 class="heading">Docker</h2>
+                    <p class="text"> Docker is a software platform that allows you to build, test, and deploy applications quickly</p>
+                    <ul>
+                        <li>Docker works by providing a standard way to run your code</li>
+                        <li>Docker is an operating system for containers</li>
+                        <li>Similar to how a virtual machine virtualizes (removes the need to directly manage) server hardware, containers virtualize the operating system of a server</li>
+                        <li>Docker is installed on each server and provides simple commands you can use to build, start, or stop containers.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="inner-item-box inner-item-box-2">
+                <div class="image-box">
+                    <a href="https://www.terraform.io/" target="_blank"><img src="images/terraform.jpg" class="img" alt="Terraform"></a>
+                </div>
+                <div class="content-box">
+                    <h2 class="heading">Terraform</h2>
+                        <p class="text">Terraform is an infrastructure-as-code software tool created by HashiCorp</p>
+                        <ul>
+                            <li>Terraform manages external resources (such as public cloud infrastructure, private cloud infrastructure, network appliances, software as a service, and platform as a service) with "providers"./li>
+                            <li> Terraform uses declarative configuration to describe the desired final state.</li>
+                            <li>Terraform supports a number of cloud infrastructure providers such as Amazon Web Services, Cloudflare, Microsoft Azure, IBM Cloud, Serverspace, Selected Google Cloud Platform, DigitalOcean,Oracle Cloud Infrastructure, Yandex.Cloud,VMware vSphere, and OpenStack</li>
+                            <li>Terraform will perform CRUD actions on the user's behalf to accomplish the desired state.</li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="inner-item-box inner-item-box-3">
+                <div class="image-box">
+                    <a href="https://www.jenkins.io/doc/book/pipeline/" target="_blank"><img src="images/jenkins.jpg" class="img" alt="AWS"></a>
+                </div>
+                <div class="content-box">
+                    <h2 class="heading">Jenkins</h2>
+                    <p class="text">Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration, and continuous delivery</p>
+                    <ul>
+                        <li>Jenkins is a powerful application that allows continuous integration and continuous delivery of projects, regardless of the platform you are working on </li>
+                        <li>It is a free source that can handle any kind of build or continuous integration. </li>
+                        <li>You can integrate Jenkins with a number of testing and deployment technologies.</li>
+                        <li>In this tutorial, we would explain how you can use Jenkins to build and test your software projects continuously.</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <h3>Contact Us</h3>
+                    <p>Email: contact@example.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div class="column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#">
+                            <img src="images/facebook.png"  alt="Facebook">
+                        </a>
+                        <a href="#" >
+                            <img src="images/twitter.jpg"  alt="Twitter">
+                        </a>
+                        <a href="#" >
+                            <img src="images/instagram.jpg"  alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3>Quick Links</h3>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Services</a></p>
+                    <p><a href="#">Contact</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+                </div>
+            </div>
+                    
+        </div>
+    </footer>
+</body>
+</html>

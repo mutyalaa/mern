@@ -1,0 +1,25 @@
+.animation{
+    display: flex;
+    margin: 0;
+    height: 100px;
+    perspective: 100px;
+}
+
+.animation-box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotateanimation-box 5s linear infinite;
+}
+
+.face {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(238, 32, 220, 0.919);
+    color: rgb(13, 12, 12);
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
