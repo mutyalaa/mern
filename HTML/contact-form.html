@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <form id="contact">
+            <h1>Enter you details below:</h1>
+            <div class="form">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Ram Krishna" required pattern="[A-z,a-z\s]">
+            </div>
+            <div class="form">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" required pattern="[@]">
+            </div>
+            <div class="form">
+                <label for="subject">subject</label>
+                <input type="text" name="subject" id="subject" required minlength="5" maxlength="35">
+            </div>
+            <div class="form">
+                <label for="message">message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>

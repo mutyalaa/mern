@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form-Car</title>
+    <link rel="stylesheet" href="survey from.css">
+</head>
+<body>
+    <div class="container">
+        <form id="survey">
+            <h1>Survey Information</h1>
+
+            <div class="form">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                
+            </div>
+
+            <div class="form">
+                
+                <label for="Age">Age:</label>
+                <input type="number" name="age" id="age" required>
+            </div>
+
+            <div class="form">
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="form">
+                <label>Do You Own A Car?</label>
+                <div>
+                    
+                    <label for="own-car-yes">yes</label>
+                    <input type="radio" name="own-car" id="own-car-yes" value="own-car-yes">
+                    <label for="own-car-no">no</label>
+                    <input type="radio" name="own-car-no" id="own-car-no" value="no">
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="form">
+                    
+                    <label for="car-make">car make:</label>
+                    <select name="car-make" id="car-make">
+                        <option value="suzuki">suzuki</option>
+                        <option value="honda">honda</option>
+                        <option value="hyundai">hyundai</option>
+                        <option value="chevrolet">chevrolet</option>
+                        <option value="ford">ford</option>
+                    </select>
+                </div>
+
+                <div class="form">
+                    
+                    <label for="car-model">car model:</label>
+                    <input type="text" name="car-model" id="car-model">
+                </div>
+                
+                <div class="form">
+                    <label for="drive-frequency">how often do you drive?</label>
+                    <select name="drive-frequency" id="drive-frequency">
+                        <option value="daily">daily</option>
+                        <option value="Weekly">Weekly</option>
+                        <option value="monthly">monthly</option>
+                        <option value="rarely">rarely</option>
+                    </select>
+                </div>
+
+                <div class="form">
+                    <label for="purpose">what is your primary purpose of driving?</label>
+                </div>
+                <div> 
+                    <label for="purpose-work">work</label>
+                    <input type="checkbox" name="purpose-work" id="purpose" value="work">
+                    <label for="purpose-leisure">leisure</label>
+                    <input type="checkbox" name="purpose-leisure" id="purpose" value="leisure">
+                    <label for="purpose-other">other</label>
+                    <input type="checkbox" name="purpose-other" id="purpose" value="other">
+                </div>
+            </div>
+
+            <button type="submit">submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>
